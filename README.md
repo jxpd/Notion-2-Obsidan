@@ -1,3 +1,7 @@
+# About this Fork
+While running the script by visualcurrent, I have noticed that the UID was not removed from the files and folders automatically. Arozx has fixed this issue in his fork, however it was not compatible with macOS as the paths were preconfigured. This is why I have removed the preconfiguration, so the user can use the path of choice.
+Also, the headings were doubled as the first line also contained the heading with a "#", which I did not like. This is why I have excluded the first line in this script.
+
 # Notion-2-Obsidian
 
 For those considering switching from [Notion](https://www.notion.so/) to [Obsidian](https://obsidian.md/), here is a Python 3 script that converts your Notion export into an Obsidian friendly format. 
@@ -25,13 +29,6 @@ All of this is remedied by this script. Note however, that Notion comments do NO
 
 If you're interested, the full sequence of modifications needed to make your Notion export compatible with Obsidian can be found in the write-up found in the [Methodology.md](METHODOLOGY.md) file in this git.
 
-# Supporting the Work
-
-I’m happy to offer you this script and the conversion methodology. If you're able and inclined, a donation for the convenience and time savings would be genuinely appreciated. There's a couple donation links at the bottom of this page.
-
-I estimate that anyone using the [Methodology.md](METHODOLOGY.md) can convert their Notion export in a day or less of work. Without this guide, it would likely take several days of troubleshooting. If you’re a confident programmer, it may take you just a couple hours with the guide. I encourage everyone to go through the process. It is satisfying.
-
-However, if your time is worth more spent elsewhere. Feel free to use the code and switch to Obsidian in mere seconds! 
 
 # Export Your Full Notion Database
 If you haven't already, you'll need to export your content from Notion.
@@ -62,11 +59,3 @@ Time to import everything into Obsidian
 4.  Use the Select Folder window to navigate to the directory with your newly converted files
   
 Enjoy the shift to Obsidian!
-
-# Donation Links
-If the instructions or code have been useful for you, please consider the time you've saved and treat me to half a lunch or so :)  My hole-in-the-bucket Covid-19 era income would greatly appreciate it.
-
-Here are some donation links for me:
-* PayPal: https://www.paypal.me/GabrielKrause
-* Venmo: @Gabriel-Krause
-* Etherium: 0xeAE10E05427845aE816E61605eCC779A2d5e59A4
